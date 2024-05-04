@@ -1,5 +1,9 @@
+RichTextLabel
+Timer
+Node
+TextureRect
+CanvasLayer
 CollisionShape2D
 StaticBody2D
-Node
 Node2D
 Camera2D

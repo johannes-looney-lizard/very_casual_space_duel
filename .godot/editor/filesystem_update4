@@ -2,3 +2,8 @@ res://scenes/game.tscn
 res://scenes/main.tscn
 res://scenes/player.tscn
 res://scenes/player.gd
+res://scenes/start_round.tscn
+res://scenes/start_round.gd
+res://scenes/game.gd
+res://scripts/game_manager.gd
+res://scripts/start_round.gd
