@@ -1,0 +1,41 @@
+[gd_scene load_steps=3 format=3 uid="uid://bl0frncf485hf"]
+
+[ext_resource type="PackedScene" uid="uid://dxqm7yxivxmkx" path="res://scenes/player.tscn" id="1_h5fln"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_xgh3w"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_h5fln")]
+position = Vector2(-850, 0)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Walls" type="Node" parent="."]
+
+[node name="Top" type="StaticBody2D" parent="Walls"]
+position = Vector2(0, -540)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Top"]
+shape = SubResource("WorldBoundaryShape2D_xgh3w")
+
+[node name="Bottom" type="StaticBody2D" parent="Walls"]
+position = Vector2(0, 540)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Bottom"]
+position = Vector2(0, -540)
+shape = SubResource("WorldBoundaryShape2D_xgh3w")
+
+[node name="Left" type="StaticBody2D" parent="Walls"]
+position = Vector2(-960, 0)
+rotation = 1.5708
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Left"]
+shape = SubResource("WorldBoundaryShape2D_xgh3w")
+
+[node name="Right" type="StaticBody2D" parent="Walls"]
+position = Vector2(960, 0)
+rotation = 1.5708
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Right"]
+shape = SubResource("WorldBoundaryShape2D_xgh3w")
