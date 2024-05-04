@@ -1,0 +1,10 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1714816956
+icon.svg::CompressedTexture2D::151834957784939728::1714815082::1714816957::1::::<><>::
+README.md::TextFile::-1::1714816729::0::1::::<><>::
+::res://assets/::1714816855
+README.md::TextFile::-1::1714816729::0::1::::<><>::
+::res://scenes/::1714816135
+game.tscn::PackedScene::3210442037183590755::1714816135::0::1::::<><>::uid://dxqm7yxivxmkx::::res://scenes/player.tscn
+player.gd::GDScript::-1::1714815560::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::8807422544620528355::1714816135::0::1::::<><>::res://scenes/player.gd<>uid://cfsx1x7nbolk::::res://icon.svg
