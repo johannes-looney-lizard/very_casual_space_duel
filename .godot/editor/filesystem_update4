@@ -8,3 +8,5 @@ res://scenes/game.gd
 res://scripts/game_manager.gd
 res://scripts/start_round.gd
 res://player.gd
+res://scenes/bullet.tscn
+res://scenes/bullet.gd

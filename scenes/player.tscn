@@ -9,6 +9,7 @@ radius = 70.7107
 [node name="Player" type="CharacterBody2D"]
 collision_mask = 2
 script = ExtResource("1_0876g")
+player_number = null
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(0.21, 0.21)
@@ -16,3 +17,10 @@ texture = ExtResource("2_jjmfd")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_1i4c5")
+
+[node name="BulletSpawn1" type="Marker2D" parent="."]
+position = Vector2(70, 0)
+
+[node name="BulletSpawn2" type="Marker2D" parent="."]
+position = Vector2(-71, 1)
+rotation = 3.14159
