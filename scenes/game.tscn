@@ -8,7 +8,6 @@
 
 [node name="Player1" parent="." instance=ExtResource("1_h5fln")]
 position = Vector2(-850, 0)
-player_number = null
 
 [node name="Player2" parent="." instance=ExtResource("1_h5fln")]
 position = Vector2(850, 0)
